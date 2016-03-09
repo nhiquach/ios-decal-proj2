@@ -54,6 +54,14 @@ class GameViewController: UIViewController {
     func inputGuess() {
         if let letter = guessTextField.text {
             if letter.characters.count > 1 {
+                let alertController = UIAlertController(
+                    title: "Invalid Guess",
+                    message: "Guesses can only be one character.",
+                    preferredStyle: .Alert)
+                let cancelAction = UIAlertAction(title: "Try Again", style: .Cancel , handler: nil)
+                alertController.addAction(cancelAction)
+                self.presentViewController(alertController, animated: true, completion: nil)
+                guessTextField.text = nil
                 return
             }
             if !phrase.uppercaseString.containsString(letter.uppercaseString) {
@@ -62,12 +70,22 @@ class GameViewController: UIViewController {
                 updateBlanks(letter.uppercaseString)
             }
         }
+        guessTextField.text = nil
         
     }
     
     func updateIncorrectGuesses(letter: String) {
         if !incorrectGuesses.contains(letter) {
             updateHangman()
+        } else {
+            let alertController = UIAlertController(
+                title: "Invalid Guess",
+                message: "Incorrect guess already made. Please try a new guess.",
+                preferredStyle: .Alert)
+            let cancelAction = UIAlertAction(title: "Try Again", style: .Cancel , handler: nil)
+            alertController.addAction(cancelAction)
+            self.presentViewController(alertController, animated: true, completion: nil)
+            return
         }
         
         incorrectGuesses.insert(letter)
