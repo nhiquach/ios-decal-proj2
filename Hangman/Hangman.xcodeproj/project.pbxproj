@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C8CE7E51C91338F00964C2D /* HangmanGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8CE7E41C91338F00964C2D /* HangmanGame.swift */; };
 		EC93104C1C891F2C00BE736C /* hangman1.gif in Resources */ = {isa = PBXBuildFile; fileRef = EC9310451C891F2C00BE736C /* hangman1.gif */; };
 		EC93104D1C891F2C00BE736C /* hangman2.gif in Resources */ = {isa = PBXBuildFile; fileRef = EC9310461C891F2C00BE736C /* hangman2.gif */; };
 		EC93104E1C891F2C00BE736C /* hangman3.gif in Resources */ = {isa = PBXBuildFile; fileRef = EC9310471C891F2C00BE736C /* hangman3.gif */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C8CE7E41C91338F00964C2D /* HangmanGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HangmanGame.swift; sourceTree = "<group>"; };
 		EC9310451C891F2C00BE736C /* hangman1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = hangman1.gif; path = "basic-hangman-img/hangman1.gif"; sourceTree = "<group>"; };
 		EC9310461C891F2C00BE736C /* hangman2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = hangman2.gif; path = "basic-hangman-img/hangman2.gif"; sourceTree = "<group>"; };
 		EC9310471C891F2C00BE736C /* hangman3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = hangman3.gif; path = "basic-hangman-img/hangman3.gif"; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				ECC22F7D1C891CF800749E58 /* HangmanPhrases.swift */,
+				3C8CE7E41C91338F00964C2D /* HangmanGame.swift */,
 				ECC22F7B1C891A6700749E58 /* phrases.plist */,
 			);
 			name = Model;
@@ -255,6 +258,7 @@
 				TargetAttributes = {
 					ECC22F3E1C89177600749E58 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = C55B834Z29;
 					};
 					ECC22F521C89177600749E58 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -327,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECC22F711C8917C200749E58 /* GameViewController.swift in Sources */,
+				3C8CE7E51C91338F00964C2D /* HangmanGame.swift in Sources */,
 				ECC22F431C89177600749E58 /* AppDelegate.swift in Sources */,
 				ECC22F7E1C891CF800749E58 /* HangmanPhrases.swift in Sources */,
 				ECC94FB81C891E31006B4A98 /* StartScreenViewController.swift in Sources */,
@@ -471,10 +476,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Hangman/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shawndsouza.Hangman;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhiquach.Hangman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -482,10 +490,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Hangman/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shawndsouza.Hangman;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhiquach.Hangman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
