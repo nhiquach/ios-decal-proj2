@@ -23,7 +23,7 @@ class GameViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.view.backgroundColor = UIColor(red: 169.0/255, green: 213.0/255, blue: 198.0/255, alpha: 1.0)
         // Do any additional setup after loading the view.
         newGame()
         loadTargets()
@@ -74,7 +74,19 @@ class GameViewController: UIViewController {
                 if letter.characters.count > 1 || letter == "" {
                     let alertController = UIAlertController(
                         title: "Invalid Guess",
-                        message: "Guesses can only be one character.",
+                        message: "Guesses are limited to one character.",
+                        preferredStyle: .Alert)
+                    let cancelAction = UIAlertAction(title: "Try Again", style: .Cancel , handler: nil)
+                    alertController.addAction(cancelAction)
+                    self.presentViewController(alertController, animated: true, completion: nil)
+                    guessTextField.text = nil
+                    return
+                }
+                let chr = letter.characters.first
+                if (!(chr >= "a" && chr <= "z") && !(chr >= "A" && chr <= "Z") ) {
+                    let alertController = UIAlertController(
+                        title: "Invalid Guess",
+                        message: "Guesses can only be one alphabetical character.",
                         preferredStyle: .Alert)
                     let cancelAction = UIAlertAction(title: "Try Again", style: .Cancel , handler: nil)
                     alertController.addAction(cancelAction)
