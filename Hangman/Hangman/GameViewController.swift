@@ -12,10 +12,10 @@ class GameViewController: UIViewController {
 
     @IBOutlet weak var startOverButton: UIBarButtonItem!
     @IBOutlet weak var guessButton: UIButton!
+    @IBOutlet weak var hangmanStateImageView: UIImageView!
     @IBOutlet weak var newGameButton: UIBarButtonItem!
     @IBOutlet weak var guessTextField: UITextField!
     @IBOutlet weak var incorrectGuessesLabel: UILabel!
-    @IBOutlet weak var hangmanStateImageView: UIImageView!
     @IBOutlet weak var phraseLabel: UILabel!
     
     let hangmanPhrases = HangmanPhrases()
@@ -51,7 +51,7 @@ class GameViewController: UIViewController {
     func cleanView() {
         setBlanks()
         incorrectGuessesLabel.text = ""
-        let imageFileName = "hangman" + String(hangmanGame!.hangmanImageState) + ".gif"
+        let imageFileName = "hangman" + String(hangmanGame!.hangmanImageState) + ".png"
         hangmanStateImageView.image = UIImage(named: imageFileName)
     }
     
@@ -136,7 +136,7 @@ class GameViewController: UIViewController {
             hangmanGame!.gameOver = 1
             presentGameOverAlert()
         }
-        let imageFileName = "hangman" + String(hangmanGame!.hangmanImageState) + ".gif"
+        let imageFileName = "hangman" + String(hangmanGame!.hangmanImageState) + ".png"
         hangmanStateImageView.image = UIImage(named: imageFileName)
     }
     
