@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C1FB0C61C9B867D00350A6E /* hangman7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C1FB0BF1C9B867D00350A6E /* hangman7.png */; };
-		3C1FB0C71C9B867D00350A6E /* hangman6.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C1FB0C01C9B867D00350A6E /* hangman6.png */; };
-		3C1FB0C81C9B867D00350A6E /* hangman5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C1FB0C11C9B867D00350A6E /* hangman5.png */; };
-		3C1FB0C91C9B867D00350A6E /* hangman4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C1FB0C21C9B867D00350A6E /* hangman4.png */; };
-		3C1FB0CA1C9B867D00350A6E /* hangman3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C1FB0C31C9B867D00350A6E /* hangman3.png */; };
-		3C1FB0CB1C9B867D00350A6E /* hangman2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C1FB0C41C9B867D00350A6E /* hangman2.png */; };
-		3C1FB0CC1C9B867D00350A6E /* hangman1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C1FB0C51C9B867D00350A6E /* hangman1.png */; };
 		3C8CE7E51C91338F00964C2D /* HangmanGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8CE7E41C91338F00964C2D /* HangmanGame.swift */; };
+		3CA4087D1CA9C58A00E67BE5 /* hangman1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA408761CA9C58900E67BE5 /* hangman1.png */; };
+		3CA4087E1CA9C58A00E67BE5 /* hangman2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA408771CA9C58A00E67BE5 /* hangman2.png */; };
+		3CA4087F1CA9C58A00E67BE5 /* hangman3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA408781CA9C58A00E67BE5 /* hangman3.png */; };
+		3CA408801CA9C58A00E67BE5 /* hangman4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA408791CA9C58A00E67BE5 /* hangman4.png */; };
+		3CA408811CA9C58A00E67BE5 /* hangman5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA4087A1CA9C58A00E67BE5 /* hangman5.png */; };
+		3CA408821CA9C58A00E67BE5 /* hangman6.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA4087B1CA9C58A00E67BE5 /* hangman6.png */; };
+		3CA408831CA9C58A00E67BE5 /* hangman7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA4087C1CA9C58A00E67BE5 /* hangman7.png */; };
 		ECC22F431C89177600749E58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC22F421C89177600749E58 /* AppDelegate.swift */; };
 		ECC22F481C89177600749E58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC22F461C89177600749E58 /* Main.storyboard */; };
 		ECC22F4A1C89177600749E58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC22F491C89177600749E58 /* Assets.xcassets */; };
@@ -45,14 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3C1FB0BF1C9B867D00350A6E /* hangman7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hangman7.png; path = "../../../../Desktop/hangman-images/hangman7.png"; sourceTree = "<group>"; };
-		3C1FB0C01C9B867D00350A6E /* hangman6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hangman6.png; path = "../../../../Desktop/hangman-images/hangman6.png"; sourceTree = "<group>"; };
-		3C1FB0C11C9B867D00350A6E /* hangman5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hangman5.png; path = "../../../../Desktop/hangman-images/hangman5.png"; sourceTree = "<group>"; };
-		3C1FB0C21C9B867D00350A6E /* hangman4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hangman4.png; path = "../../../../Desktop/hangman-images/hangman4.png"; sourceTree = "<group>"; };
-		3C1FB0C31C9B867D00350A6E /* hangman3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hangman3.png; path = "../../../../Desktop/hangman-images/hangman3.png"; sourceTree = "<group>"; };
-		3C1FB0C41C9B867D00350A6E /* hangman2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hangman2.png; path = "../../../../Desktop/hangman-images/hangman2.png"; sourceTree = "<group>"; };
-		3C1FB0C51C9B867D00350A6E /* hangman1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hangman1.png; path = "../../../../Desktop/hangman-images/hangman1.png"; sourceTree = "<group>"; };
 		3C8CE7E41C91338F00964C2D /* HangmanGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HangmanGame.swift; sourceTree = "<group>"; };
+		3CA408761CA9C58900E67BE5 /* hangman1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman1.png; sourceTree = "<group>"; };
+		3CA408771CA9C58A00E67BE5 /* hangman2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman2.png; sourceTree = "<group>"; };
+		3CA408781CA9C58A00E67BE5 /* hangman3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman3.png; sourceTree = "<group>"; };
+		3CA408791CA9C58A00E67BE5 /* hangman4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman4.png; sourceTree = "<group>"; };
+		3CA4087A1CA9C58A00E67BE5 /* hangman5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman5.png; sourceTree = "<group>"; };
+		3CA4087B1CA9C58A00E67BE5 /* hangman6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman6.png; sourceTree = "<group>"; };
+		3CA4087C1CA9C58A00E67BE5 /* hangman7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman7.png; sourceTree = "<group>"; };
 		ECC22F3F1C89177600749E58 /* Hangman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC22F421C89177600749E58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECC22F471C89177600749E58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -96,18 +96,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3C1FB0BE1C9B865C00350A6E /* hangman-img */ = {
+		3CA408751CA9C55E00E67BE5 /* hangman-imgs */ = {
 			isa = PBXGroup;
 			children = (
-				3C1FB0BF1C9B867D00350A6E /* hangman7.png */,
-				3C1FB0C01C9B867D00350A6E /* hangman6.png */,
-				3C1FB0C11C9B867D00350A6E /* hangman5.png */,
-				3C1FB0C21C9B867D00350A6E /* hangman4.png */,
-				3C1FB0C31C9B867D00350A6E /* hangman3.png */,
-				3C1FB0C41C9B867D00350A6E /* hangman2.png */,
-				3C1FB0C51C9B867D00350A6E /* hangman1.png */,
+				3CA408761CA9C58900E67BE5 /* hangman1.png */,
+				3CA408771CA9C58A00E67BE5 /* hangman2.png */,
+				3CA408781CA9C58A00E67BE5 /* hangman3.png */,
+				3CA408791CA9C58A00E67BE5 /* hangman4.png */,
+				3CA4087A1CA9C58A00E67BE5 /* hangman5.png */,
+				3CA4087B1CA9C58A00E67BE5 /* hangman6.png */,
+				3CA4087C1CA9C58A00E67BE5 /* hangman7.png */,
 			);
-			name = "hangman-img";
+			name = "hangman-imgs";
 			sourceTree = "<group>";
 		};
 		ECC22F361C89177600749E58 = {
@@ -133,8 +133,9 @@
 		ECC22F411C89177600749E58 /* Hangman */ = {
 			isa = PBXGroup;
 			children = (
-				ECC22F741C8917FF00749E58 /* Model */,
+				3CA408751CA9C55E00E67BE5 /* hangman-imgs */,
 				ECC22F731C8917DC00749E58 /* View */,
+				ECC22F741C8917FF00749E58 /* Model */,
 				ECC22F721C8917D300749E58 /* Controller */,
 				ECC22F421C89177600749E58 /* AppDelegate.swift */,
 				ECC22F491C89177600749E58 /* Assets.xcassets */,
@@ -174,7 +175,6 @@
 		ECC22F731C8917DC00749E58 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				3C1FB0BE1C9B865C00350A6E /* hangman-img */,
 				ECC22F461C89177600749E58 /* Main.storyboard */,
 			);
 			name = View;
@@ -298,14 +298,14 @@
 				ECC22F7C1C891A6700749E58 /* phrases.plist in Resources */,
 				ECC22F4D1C89177600749E58 /* LaunchScreen.storyboard in Resources */,
 				ECC22F4A1C89177600749E58 /* Assets.xcassets in Resources */,
-				3C1FB0CC1C9B867D00350A6E /* hangman1.png in Resources */,
-				3C1FB0CB1C9B867D00350A6E /* hangman2.png in Resources */,
-				3C1FB0C71C9B867D00350A6E /* hangman6.png in Resources */,
-				3C1FB0C61C9B867D00350A6E /* hangman7.png in Resources */,
-				3C1FB0C91C9B867D00350A6E /* hangman4.png in Resources */,
-				3C1FB0CA1C9B867D00350A6E /* hangman3.png in Resources */,
-				3C1FB0C81C9B867D00350A6E /* hangman5.png in Resources */,
+				3CA408821CA9C58A00E67BE5 /* hangman6.png in Resources */,
+				3CA4087E1CA9C58A00E67BE5 /* hangman2.png in Resources */,
+				3CA4087D1CA9C58A00E67BE5 /* hangman1.png in Resources */,
+				3CA408831CA9C58A00E67BE5 /* hangman7.png in Resources */,
+				3CA408801CA9C58A00E67BE5 /* hangman4.png in Resources */,
+				3CA408811CA9C58A00E67BE5 /* hangman5.png in Resources */,
 				ECC22F481C89177600749E58 /* Main.storyboard in Resources */,
+				3CA4087F1CA9C58A00E67BE5 /* hangman3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
